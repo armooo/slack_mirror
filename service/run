@@ -1,0 +1,3 @@
+#!/bin/sh
+cd /home/armooo/slack_mirror/
+exec /usr/bin/setuidgid armooo /home/armooo/slack_mirror/.env/bin/supervisord -n -c /home/armooo/slack_mirror/supervisord/supervisord.conf
